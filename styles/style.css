@@ -8,8 +8,9 @@
 }
 
 *{
-  padding: 0px;
-  margin: 0px;
+  padding: 0%;
+  margin: 0%;
+  
   box-sizing: border-box
 }
 
@@ -23,11 +24,16 @@
 }
 
 .nav-container{
-  justify-content: space-around;
+  justify-content: space-between;
   padding-top: 16px;
+  max-width: 1160px;
+  align-items: center;
+  margin: 0px auto;
+  
 }
 
 .school {
+  padding-top: 16px;
 
 }
 
@@ -85,27 +91,63 @@
   display: none;
 }
 
+/* Kids Section */
 
+.kids-section {
+  display: flex;
+  max-width: 1160px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
+  padding-top: 24px;
+}
+
+.kids-header {
+  font-size: 3.5rem;
+
+}
+
+.empowering-color {
+  color: orange;
+}
+.towards-color {
+  color: #01ACFD;
+}
+.quoet {
+  font-size: 1.25rem;
+  padding-top: 24px;
+}
+.btn-primary1{
+  background-color: black;
+  font-size: 1.25rem;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  width: 197px;
+  height: 50px;
+  margin-top: 24px;
+}
 
 
 @media screen and (max-width: 576px) {
     .school, .list, .btn-primary{
       display: none;
     }
-
     .menubar {
       display: block;
     }
-
     .nav-container{
       border: 1px solid orange;
       padding: 10px 10px;
       
     }
-
     .logo{
-      
+      height: 46px;
+      width: 46px;
     }
-
-  
+    .kids-section {
+      flex-direction: column-reverse;
+      margin-top: 28px;
+      text-align: center;
+    }
 } 
