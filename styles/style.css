@@ -223,6 +223,7 @@
   justify-content: center;
   align-items: center;
   margin-top: -100px;
+  padding-bottom: 60px;
 
 }
 .last-btn {
@@ -375,12 +376,79 @@
 
 }
 
+/* Footer section */
+
+.footer-container {
+  background-color: #01ACFD;
+  display: flex;
+  max-width: 100%;
+  justify-content: space-evenly;
+}
+
+.footer-icon {
+  display: flex;
+}
+
+.kids-education {
+  font-size: 2.19rem;
+  font-weight: 700;
+  color: white;
+}
+
+.footer-description {
+  padding-top: 35px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: white;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 10px 0px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: white;
+  padding-top: 32px;
+}
+
+.footer-middle, h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+}
+
+.footer-right, h3 {
+  color: white;
+
+}
+
+.footer-left {  
+  margin: 50px 0px;
+
+}
+.footer-middle {  
+  margin: 50px 0px;
+
+}
+.footer-right {  
+  margin: 50px 0px;
+}
+
+.keep-text {
+  margin-bottom: 32px;
+  font-size: 26px;
+}
+
+
+/* Media query for small or mobile devices */
 @media screen and (max-width: 576px) {
     .school, .list, .btn-primary{
       display: none;
     }
     .menubar {
       display: block;
+      width: 35px;
+      height: 35px;
     }
     .nav-container{
       border: 1px solid orange;
@@ -414,5 +482,27 @@
       justify-content:center;
 
     }
-    
+
+    .date1 {
+      max-width: 50%;
+      
+    }
+    .date2 {
+      max-width: 50%;
+    }
+    .date3 {
+      max-width: 50%;
+    }
+    .date4 {
+      max-width: 50%;
+    }
+    .date5 {
+      max-width: 50%;
+    }
+
+    .footer-container {
+      flex-direction: column;
+      padding: 20px;
+    }
+
 } 
