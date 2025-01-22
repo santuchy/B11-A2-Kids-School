@@ -439,6 +439,19 @@
   font-size: 26px;
 }
 
+.marquee {
+  font-weight: bold;
+}
+
+.marquee-color1 {
+  color: orange;
+
+}
+
+.marquee-color2 {
+  color: skyblue;
+}
+
 
 /* Media query for small or mobile devices */
 @media screen and (max-width: 576px) {
